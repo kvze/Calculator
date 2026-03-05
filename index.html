@@ -9,36 +9,36 @@
 <body>
     <div class="calculator">
         <div class="display">
-            <div class="display-additional">
-                нул
+            <div class="display-additional visually-hidden">
+                NULL
             </div>
             <div class="display-main">
                 0
             </div>
         </div>
         <div class="buttons">
-            <button class="button button-light-gray button-backspace">
+            <button class="button button-light-gray button-backspace" data-type="action" data-value="backspace">
                 <img src="img/backspace.svg" alt="" width="50px" height="50px" class="backspace">
             </button>
-            <button class="button button-light-gray">AC</button>
-            <button class="button button-light-gray">%</button>
-            <button class="button button-orange">/</button>
-            <button class="button button-gray">7</button>
-            <button class="button button-gray">8</button>
-            <button class="button button-gray">9</button>
-            <button class="button button-orange">x</button>
-            <button class="button button-gray">4</button>
-            <button class="button button-gray">5</button>
-            <button class="button button-gray">6</button>
-            <button class="button button-orange">-</button>
-            <button class="button button-gray">1</button>
-            <button class="button button-gray">2</button>
-            <button class="button button-gray">3</button>
-            <button class="button button-orange">+</button>
-            <button class="button button-gray">+/-</button>
-            <button class="button button-gray">0</button>
-            <button class="button button-gray">,</button>
-            <button class="button button-orange">=</button>
+            <button class="button button-light-gray" data-type="action" data-value="clear">AC</button>
+            <button class="button button-light-gray" data-type="action" data-value="percent">%</button>
+            <button class="button button-orange" data-type="operator" data-value="/">/</button>
+            <button class="button button-gray" data-type="digit" data-value="7">7</button>
+            <button class="button button-gray" data-type="digit" data-value="8">8</button>
+            <button class="button button-gray" data-type="digit" data-value="9">9</button>
+            <button class="button button-orange" data-type="operator" data-value="*">x</button>
+            <button class="button button-gray" data-type="digit" data-value="4">4</button>
+            <button class="button button-gray" data-type="digit" data-value="5">5</button>
+            <button class="button button-gray" data-type="digit" data-value="6">6</button>
+            <button class="button button-orange" data-type="operator" data-value="-">-</button>
+            <button class="button button-gray" data-type="digit" data-value="1">1</button>
+            <button class="button button-gray" data-type="digit" data-value="2">2</button>
+            <button class="button button-gray" data-type="digit" data-value="3">3</button>
+            <button class="button button-orange" data-type="operator" data-value="+">+</button>
+            <button class="button button-gray" data-type="action" data-value="toggle-sign">+/-</button>
+            <button class="button button-gray" data-type="digit" data-value="0">0</button>
+            <button class="button button-gray" data-type="action" data-value="decimal">.</button>
+            <button class="button button-orange" data-type="action" data-value="equals">=</button>
         </div>
     </div>
     <script src="js/script.js"></script>

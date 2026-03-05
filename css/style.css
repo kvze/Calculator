@@ -91,4 +91,8 @@ body{
     padding-right: 5px;
 }
 
+.visually-hidden{
+    visibility: hidden;
+}
+
 
